@@ -1,0 +1,18 @@
+:root{
+    --borderRight: 5px solid brown;
+}
+
+body{
+    width: 350px;
+}
+
+ul{
+    background: orange;
+    border-right: var(--borderRight);
+}
+
+ul ul{
+    background: greenyellow ;
+    width: 100px;
+    --borderRight: initial;
+}
